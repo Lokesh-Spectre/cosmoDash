@@ -29,11 +29,16 @@ syntax for ```services.json``` file
 ```json
 [
     {
-        "name":         <name of the service>,
-        "image":        <path of the image for the service>,
-        "description":  <this text is showed on the tile along with image>,
-        "url":          <The url to which user will be re-routed>
+        "name":         "name of the service",
+        "image":        "path of the image for the service",
+        "description":  "this text is showed on the tile along with image",
+        "url":          "The url to which user will be re-routed"
     },
-    ...
+    {
+        "name":         "name of the service 2",
+        "image":        "path of the image for the service",
+        "description":  "this text is showed on the tile along with image",
+        "url":          "The url to which user will be re-routed"
+    }
 ]
 ```
